@@ -1,8 +1,12 @@
 # SRT core module
+import sys
+sys.path.append("../")
+import settings
+
  
 def app():
     # init conf
-    pass
+    settings.read_config()
     
 
     
